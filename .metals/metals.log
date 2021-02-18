@@ -2778,3 +2778,68 @@ WARNING: Unmatched cancel notification for request id 20
 [0m2021.02.18 14:14:30 INFO  time: evaluated worksheet 'noNegativo.worksheet.sc' in 31s[0m
 feb. 18, 2021 8:01:41 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.02.18 20:40:29 INFO  no build target: using presentation compiler with only scala-library[0m
+[0m2021.02.18 20:40:29 INFO  time: evaluated worksheet 'suma.worksheet.sc' in 6.61s[0m
+[31merror[39m: Sesion 1\suma.worksheet.sc:1:36: type mismatch;
+ found   : AnyVal
+ required: String
+def suma(a:AnyVal, b:AnyVal) = a + b
+                                   ^
+[0m2021.02.18 20:43:18 INFO  time: evaluated worksheet 'suma.worksheet.sc' in 0.3s[0m
+[31merror[39m: Sesion 1\suma.worksheet.sc:1:36: type mismatch;
+ found   : AnyVal
+ required: String
+def suma(a:AnyVal, b:AnyVal) = a + b
+                                   ^
+[0m2021.02.18 20:43:22 INFO  time: evaluated worksheet 'suma.worksheet.sc' in 0.18s[0m
+[0m2021.02.18 20:43:32 INFO  time: evaluated worksheet 'suma.worksheet.sc' in 0.72s[0m
+[31merror[39m: Sesion 1\suma.worksheet.sc:3:8: type mismatch;
+ found   : Double(6.4)
+ required: Int
+suma(4,6.4)
+       ^^^
+[0m2021.02.18 20:45:30 INFO  time: evaluated worksheet 'suma.worksheet.sc' in 0.18s[0m
+[0m2021.02.18 20:51:08 INFO  time: evaluated worksheet 'suma.worksheet.sc' in 0.74s[0m
+[0m2021.02.18 21:01:49 INFO  no build target: using presentation compiler with only scala-library[0m
+[0m2021.02.18 21:01:49 INFO  time: evaluated worksheet 'identidad.worksheet.sc' in 3.71s[0m
+feb. 18, 2021 9:01:50 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 279
+feb. 18, 2021 9:02:25 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 428
+feb. 18, 2021 9:02:38 P. M. scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: offset 36, count -2, length 54
+java.lang.StringIndexOutOfBoundsException: offset 36, count -2, length 54
+	at java.base/java.lang.String.checkBoundsOffCount(String.java:3304)
+	at java.base/java.lang.String.rangeCheck(String.java:280)
+	at java.base/java.lang.String.<init>(String.java:276)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:198)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+[31merror[39m: Sesion 1\identidad.worksheet.sc:1:26: not found: type a
+def identidad(a:AnyVal): a = a
+                         ^
+[0m2021.02.18 21:02:42 INFO  time: evaluated worksheet 'identidad.worksheet.sc' in 0.15s[0m
+[0m2021.02.18 21:03:05 INFO  time: evaluated worksheet 'identidad.worksheet.sc' in 0.59s[0m
+[0m2021.02.18 21:03:15 INFO  time: evaluated worksheet 'identidad.worksheet.sc' in 0.47s[0m
+[0m2021.02.18 21:03:17 INFO  time: evaluated worksheet 'identidad.worksheet.sc' in 0.42s[0m
+[0m2021.02.18 21:03:22 INFO  time: evaluated worksheet 'identidad.worksheet.sc' in 0.38s[0m
+feb. 18, 2021 9:03:33 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 571
+feb. 18, 2021 9:06:16 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 578
+[0m2021.02.18 21:07:21 INFO  time: evaluated worksheet 'suma.worksheet.sc' in 0.65s[0m
+feb. 18, 2021 9:07:39 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 702
+[0m2021.02.18 21:07:43 INFO  time: evaluated worksheet 'identidad.worksheet.sc' in 0.37s[0m
+feb. 18, 2021 9:08:30 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 708
+feb. 18, 2021 9:10:55 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
