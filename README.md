@@ -69,7 +69,7 @@ En las versiones mas recientes de Scala puedes crear un proyecto que tiene una f
 
 Por ejemplo, para evaluar alguna de las funciones traducidas podemos simplemente copiarla y llevarlas al IDE Online [Scasite](https://scastie.scala-lang.org/):
 
-![](#imagenes/gifEjemploEvaluar.gif)
+![alt text](https://raw.githubusercontent.com/Joseram0n/PracticasMAC2021/master/imagenes/gifEjemploEvaluar.gif))
 
 
 ___
