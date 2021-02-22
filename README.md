@@ -47,7 +47,7 @@ Para quien no lo sepa Scala es segun la Wikipedia:
 
 Entre los paradigmas que Scala permite programar se encuentra el [lenguaje funcional](https://es.wikipedia.org/wiki/Programaci%C3%B3n_funcional), el cual es el que usamos en este proyecto para replicar las funciones de Haskell trabajadas durante las practicas.
 
-En la documentación oficial hay un apartado llamado "[Tour of Scala](https://docs.scala-lang.org/tour/tour-of-scala.html)" que habla bien resumido de lo básico que hay que saber, pero está tan resumido que deja algunas cuestiones al aire, así que recomiendo la lectura de 2 documentos (en español) que pueden resolver algunas de esas cuestiones: [Prog. Funcional Scala 1](http://www.dccia.ua.es/dccia/inf/asignaturas/LPP/2010-2011/teoria/tema6.html) & [Porg. Funcional Scala 2](http://www.dccia.ua.es/dccia/inf/asignaturas/LPP/2013-14/teoria/).
+En la documentación oficial hay un apartado llamado "[Tour of Scala](https://docs.scala-lang.org/tour/tour-of-scala.html)" que habla bien resumido de lo básico que hay que saber, pero está tan resumido que deja algunas cuestiones al aire, así que recomiendo la lectura de 2 documentos (en español) que pueden resolver algunas de esas cuestiones: [Prog. Funcional Scala 1](http://www.dccia.ua.es/dccia/inf/asignaturas/LPP/2010-2011/teoria/tema6.html) & [Porg. Funcional Scala 2](http://www.dccia.ua.es/dccia/inf/asignaturas/LPP/2013-14/teoria/Tema06-ProgramacionFuncionalScala.pdf).
 
 Tanto Haskell como Scala son muy parecidos, pero cada uno maneja la información a su manera, ejemplo de tipos:
 
