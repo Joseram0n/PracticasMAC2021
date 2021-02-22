@@ -1,6 +1,6 @@
 # Ejercicios de Project Euler para complementar las sesiones
 
-Despues de traducir los ejercicios en clase voy a resolver algunos problemas de Project Euler para poner a prueba el conocimiento adquirido.
+Despues de traducir los ejercicios en clase voy a resolver algunos problemas de [Project Euler](https://projecteuler.net/) para poner a prueba el conocimiento adquirido.
 
 ## Ejercicio Euler Numero 7: 10001st prime
 
