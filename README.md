@@ -1,13 +1,15 @@
 # Proyecto Final Modelos Avanzados de Computación
 ___
-Este es el proyecto final para la asignatura "Modelos Avanzados de Computación" de la [ :mortar_board: Universidad
-de Huelva :mortar_board: ](http://www.uhu.es/index.php "UHU").
+Este es el proyecto final para la asignatura "Modelos Avanzados de Computación" de la [Universidad de Huelva :school:](http://www.uhu.es/index.php "UHU").
 ___
 
 :man_student: Alumno: [José Ramón López Garrido](https://github.com/Joseram0n)
 
 :date: Curso: 2020-2021
 ___
+
+## Índice
+- [Información General](#information_source-información-general)
 
 ## :information_source: Información General
 
@@ -21,4 +23,6 @@ Enunciado:
 
 
 Enlace al enunciado: [RepoMAC2021](https://github.com/jcarpio/mac2021/blob/main/proyecto.md)
+
+## Metodología Seguida
 
