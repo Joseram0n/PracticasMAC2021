@@ -21,4 +21,19 @@ def factorPrimo(n:Double):List[Double] = {
 factorPrimo(4)
 factorPrimo(34)
 factorPrimo(13195)
-factorPrimo(600851475143d)
+// Scala se queja de que es un numero muy grande ???
+//factorPrimo(600851475143L)
+
+
+// Otra implementacion, No es mia
+// https://stackoverflow.com/questions/4747776/project-euler-largest-prime-factor-in-scala
+
+def largestPrimeFactor(b : BigInt) = {
+  def loop(f:BigInt, n: BigInt): BigInt =
+     if (f == n) n else 
+     if (n % f == 0) loop(f, n / f) 
+     else loop(f + 1, n)
+  loop (BigInt(2), b)
+}
+
+largestPrimeFactor(600851475143L)
