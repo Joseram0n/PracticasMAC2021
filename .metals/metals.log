@@ -13205,3 +13205,14 @@ Caused by: java.lang.ClassNotFoundException: ???
 	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
 	... 4 more
 
+[0m2021.02.22 21:59:42 INFO  no build target: using presentation compiler with only scala-library[0m
+[0m2021.02.22 21:59:42 INFO  time: evaluated worksheet 'programaTupla.worksheet.sc' in 6.58s[0m
+[0m2021.02.22 21:59:50 INFO  time: evaluated worksheet 'euler1.worksheet.sc' in 0.37s[0m
+feb. 22, 2021 9:59:58 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1910
+[0m2021.02.22 21:59:59 INFO  time: evaluated worksheet 'euler2.worksheet.sc' in 0.62s[0m
+[0m2021.02.22 21:59:59 INFO  time: evaluated worksheet 'euler1.worksheet.sc' in 0.35s[0m
+feb. 22, 2021 10:00:11 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1925
+[0m2021.02.22 22:00:15 INFO  no build target: using presentation compiler with only scala-library[0m
+[0m2021.02.22 22:00:15 INFO  time: evaluated worksheet 'factorial.worksheet.sc' in 4.34s[0m

@@ -1,16 +1,25 @@
 # Proyecto Final Modelos Avanzados de Computación
 ___
-Este es el proyecto final para la asignatura "Modelos Avanzados de Computación" de la [Universidad de Huelva :school:](http://www.uhu.es/index.php "UHU").
+Este es el proyecto final para la asignatura "Modelos Avanzados de Computación" de la [:school: Universidad de Huelva](http://www.uhu.es/index.php "UHU").
 ___
 
 :man_student: Alumno: [José Ramón López Garrido](https://github.com/Joseram0n)
 
-:date: Curso: 2020-2021
+:books: Asignatura: Modelos Avanzados de Computación
+
+:calendar: Curso: 2020-2021
 ___
 
-## Índice
-- [Información General](#information_source-información-general)
-
+## :book: Índice
+- [Proyecto Final Modelos Avanzados de Computación](#proyecto-final-modelos-avanzados-de-computación)
+  - [:book: Índice](#book-índice)
+  - [:information_source: Información General](#information_source-información-general)
+  - [:writing_hand: Metodología Seguida](#writing_hand-metodología-seguida)
+  - [:nerd_face: Comprendiendo Scala](#nerd_face-comprendiendo-scala)
+  - [:man_technologist: Selección de entorno de desarrollo](#man_technologist-selección-de-entorno-de-desarrollo)
+  - [Consideraciones para ejecutar código](#consideraciones-para-ejecutar-código)
+  - [:link: Enlaces de interés](#link-enlaces-de-interés)
+___
 ## :information_source: Información General
 
 Este repositorio contiene la actividad numero tres de los proyectos ofrecidos por el profesor para la evaluación de la asignatura.
@@ -23,6 +32,54 @@ Enunciado:
 
 
 Enlace al enunciado: [RepoMAC2021](https://github.com/jcarpio/mac2021/blob/main/proyecto.md)
+___
+## :writing_hand: Metodología Seguida
 
-## Metodología Seguida
+La metodogía seguida para realizar esta actividad ha sido el uso del [documento aportado por el profesor](http://www.uhu.es/jose.carpio/N_95.pdf) junto a las [clases (grabadas y subidas a la plataforma de YouTube)](https://youtube.com/playlist?list=PL_d-XKRO_5G97S8FCPTWjS3ed09RWYnVl) para aprender Haskell, luego se ha investigado y aprendido acerca del lenguaje Scala de forma autodidacta, a traves de una [serie de videos en Youtube](https://youtube.com/playlist?list=PLTd5ehIj0goOlRPRfwGGu9Bc2ap4bt7wR), la [documentación oficial](https://docs.scala-lang.org/)  y acudiendo a foros especializados en programacón como [StackOverflow](https://stackoverflow.com) para resolver dudas, de tal forma que con los conocimientos adquiridos se ha procedido a elaborar una traducción Haskell -> Scala lo mas fiel posible usando siempre las caracteristicas de la programación funcional de esta ultima.
 
+___
+## :nerd_face: Comprendiendo Scala
+
+Para quien no lo sepa Scala es segun la Wikipedia:
+
+>Es un lenguaje de programación multi-paradigma diseñado para expresar patrones comunes de programación en forma concisa, elegante y con tipos seguros. Integra sutilmente características de lenguajes funcionales y orientados a objetos. La implementación actual se ejecuta en la máquina virtual de Java y es compatible con las aplicaciones Java existentes.
+
+Entre los paradigmas que Scala permite programar se ecuentra el [lenguaje funcional](https://es.wikipedia.org/wiki/Programaci%C3%B3n_funcional), el cual es el que usamos en este proyecto para replicar las funciones de Haskell trabajadas durante las practicas.
+
+En la documentación oficial hay un apartado llamado "[Tour of Scala](https://docs.scala-lang.org/tour/tour-of-scala.html)" que habla bien resumido de lo basico que hay que saber, pero está yan resumido que deja algunas cuestiones al aire, asi que recomiendo la lectura de 2 documentos (en español) que pueden resolver algunas de esas cuestiones: [Prog. Funcional Scala 1](http://www.dccia.ua.es/dccia/inf/asignaturas/LPP/2010-2011/teoria/tema6.html) & [Porg. Funcional Scala 2](http://www.dccia.ua.es/dccia/inf/asignaturas/LPP/2013-14/teoria/).
+
+Tanto Haskell como Scala son muy parecidos, pero cada uno maneja la información a su manera, ejemplo de tipos:
+
+| Haskell | Scala |
+| :-----: | :---: |
+|![](https://i.stack.imgur.com/Rex1J.png)|![](https://docs.scala-lang.org/resources/images/tour/unified-types-diagram.svg)       |
+
+Como curiosidad Scala está influenciado por Haskell y debido a que esta implementado sobre Java es mas popular que este ultimo.
+___
+## :man_technologist: Selección de entorno de desarrollo
+
+Para comenzar a trabajar con Scala podemos tomar 2 caminos diferentes, uno seria instalar en el equipo de forma local Scala + algun IDE ( o editor de texto + plugins) y el otro es simplemente trabajar desde la nube sin tener que instalar nada y de forma inmediata, ya que en la página de Scala se promociona un [pequeño IDE Online](https://scastie.scala-lang.org/).
+
+En este caso para realizar el proyecto se ha optado por trabajar en local de la forma mas tradicional, para ello se ha descargado e instalado [Scala 2.13.4](https://www.scala-lang.org/) y el editor de texto [Microsoft Visual Studio Code](https://code.visualstudio.com/) junto a los respectivos plugins como [Sintaxis Oficial Scala](https://marketplace.visualstudio.com/items?itemName=scala-lang.scala) y [Scala Metals](https://marketplace.visualstudio.com/items?itemName=scalameta.metals)
+
+___
+## Consideraciones para ejecutar código
+
+En las versiones mas recientes de Scala puedes crear un proyecto que tiene una funcion principal de entrada y el código puede estar dividido en varios archivos o puedes trabajar en el modo "WoorkShet", que sirve para evaluar pequeños trozos de código en un solo fichero al estilo de otros leguajes como python o matlab.
+
+Por ejemplo, para evaluar alguna de las funciones traducidas podemos simplemente copiarla y llevarlas al IDE Online [Scasite](https://scastie.scala-lang.org/):
+
+
+
+
+___
+## :link: Enlaces de interés
+
+ - [Documentación Haskell](https://www.haskell.org/documentation/)
+ - [Documento del profesor](http://www.uhu.es/jose.carpio/N_95.pdf)
+ - [Prog. Funcional Scala 1](http://www.dccia.ua.es/dccia/inf/asignaturas/LPP/2010-2011/teoria/tema6.html)
+ - [Porg. Funcional Scala 2](http://www.dccia.ua.es/dccia/inf/asignaturas/LPP/2013-14/teoria/Tema06-ProgramacionFuncionalScala.pdf)
+ - [Documentación Scala Oficial](https://docs.scala-lang.org/) -> Español disponible, pero en ingles la información es más completa.
+ - [Foro StackOverFlow](https://stackoverflow.com/)
+ - [Compilador Online Scala](https://scastie.scala-lang.org/)
+ - [Página oficial Scala](https://www.scala-lang.org/)
